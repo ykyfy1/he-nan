@@ -132,8 +132,48 @@ ip57=$(awk 'NR==57{print $2}' $result_ip)
 ip58=$(awk 'NR==58{print $2}' $result_ip)
 ip59=$(awk 'NR==59{print $2}' $result_ip)
 ip60=$(awk 'NR==60{print $2}' $result_ip)
+ip61=$(awk 'NR==61{print $2}' $result_ip)
+ip62=$(awk 'NR==62{print $2}' $result_ip)
+ip63=$(awk 'NR==63{print $2}' $result_ip)
+ip64=$(awk 'NR==64{print $2}' $result_ip)
+ip65=$(awk 'NR==65{print $2}' $result_ip)
+ip66=$(awk 'NR==66{print $2}' $result_ip)
+ip67=$(awk 'NR==67{print $2}' $result_ip)
+ip68=$(awk 'NR==68{print $2}' $result_ip)
+ip69=$(awk 'NR==69{print $2}' $result_ip)
+ip70=$(awk 'NR==70{print $2}' $result_ip)
+ip71=$(awk 'NR==71{print $2}' $result_ip)
+ip72=$(awk 'NR==72{print $2}' $result_ip)
+ip73=$(awk 'NR==73{print $2}' $result_ip)
+ip74=$(awk 'NR==74{print $2}' $result_ip)
+ip75=$(awk 'NR==75{print $2}' $result_ip)
+ip76=$(awk 'NR==76{print $2}' $result_ip)
+ip77=$(awk 'NR==77{print $2}' $result_ip)
+ip78=$(awk 'NR==78{print $2}' $result_ip)
+ip79=$(awk 'NR==79{print $2}' $result_ip)
+ip80=$(awk 'NR==80{print $2}' $result_ip)
+ip81=$(awk 'NR==81{print $2}' $result_ip)
+ip82=$(awk 'NR==82{print $2}' $result_ip)
+ip83=$(awk 'NR==83{print $2}' $result_ip)
+ip84=$(awk 'NR==84{print $2}' $result_ip)
+ip85=$(awk 'NR==85{print $2}' $result_ip)
+ip86=$(awk 'NR==86{print $2}' $result_ip)
+ip87=$(awk 'NR==87{print $2}' $result_ip)
+ip88=$(awk 'NR==88{print $2}' $result_ip)
+ip89=$(awk 'NR==89{print $2}' $result_ip)
+ip90=$(awk 'NR==90{print $2}' $result_ip)
+ip91=$(awk 'NR==91{print $2}' $result_ip)
+ip92=$(awk 'NR==92{print $2}' $result_ip)
+ip93=$(awk 'NR==93{print $2}' $result_ip)
+ip94=$(awk 'NR==94{print $2}' $result_ip)
+ip95=$(awk 'NR==95{print $2}' $result_ip)
+ip96=$(awk 'NR==96{print $2}' $result_ip)
+ip97=$(awk 'NR==97{print $2}' $result_ip)
+ip98=$(awk 'NR==98{print $2}' $result_ip)
+ip99=$(awk 'NR==99{print $2}' $result_ip)
+ip100=$(awk 'NR==100{print $2}' $result_ip)
 rm -f speedtest_${city}_$time.log $result_ip
-# 用 60 个最快 ip 生成对应城市的 txt 文件
+# 用 100 个最快 ip 生成对应城市的 txt 文件
 program=template/template_${city}.txt
 sed "s/ipipip/$ip1/g" $program > tmp_1.txt
 sed "s/ipipip/$ip2/g" $program > tmp_2.txt
@@ -195,6 +235,46 @@ sed "s/ipipip/$ip57/g" $program > tmp_57.txt
 sed "s/ipipip/$ip58/g" $program > tmp_58.txt
 sed "s/ipipip/$ip59/g" $program > tmp_59.txt
 sed "s/ipipip/$ip60/g" $program > tmp_60.txt
+sed "s/ipipip/$ip61/g" $program > tmp_61.txt
+sed "s/ipipip/$ip62/g" $program > tmp_62.txt
+sed "s/ipipip/$ip63/g" $program > tmp_63.txt
+sed "s/ipipip/$ip64/g" $program > tmp_64.txt
+sed "s/ipipip/$ip65/g" $program > tmp_65.txt
+sed "s/ipipip/$ip66/g" $program > tmp_66.txt
+sed "s/ipipip/$ip67/g" $program > tmp_67.txt
+sed "s/ipipip/$ip68/g" $program > tmp_68.txt
+sed "s/ipipip/$ip69/g" $program > tmp_69.txt
+sed "s/ipipip/$ip70/g" $program > tmp_70.txt
+sed "s/ipipip/$ip71/g" $program > tmp_71.txt
+sed "s/ipipip/$ip72/g" $program > tmp_72.txt
+sed "s/ipipip/$ip73/g" $program > tmp_73.txt
+sed "s/ipipip/$ip74/g" $program > tmp_74.txt
+sed "s/ipipip/$ip75/g" $program > tmp_75.txt
+sed "s/ipipip/$ip76/g" $program > tmp_76.txt
+sed "s/ipipip/$ip77/g" $program > tmp_77.txt
+sed "s/ipipip/$ip78/g" $program > tmp_78.txt
+sed "s/ipipip/$ip79/g" $program > tmp_79.txt
+sed "s/ipipip/$ip80/g" $program > tmp_80.txt
+sed "s/ipipip/$ip81/g" $program > tmp_81.txt
+sed "s/ipipip/$ip82/g" $program > tmp_82.txt
+sed "s/ipipip/$ip83/g" $program > tmp_83.txt
+sed "s/ipipip/$ip84/g" $program > tmp_84.txt
+sed "s/ipipip/$ip85/g" $program > tmp_85.txt
+sed "s/ipipip/$ip86/g" $program > tmp_86.txt
+sed "s/ipipip/$ip87/g" $program > tmp_87.txt
+sed "s/ipipip/$ip88/g" $program > tmp_88.txt
+sed "s/ipipip/$ip89/g" $program > tmp_89.txt
+sed "s/ipipip/$ip90/g" $program > tmp_90.txt
+sed "s/ipipip/$ip91/g" $program > tmp_91.txt
+sed "s/ipipip/$ip92/g" $program > tmp_92.txt
+sed "s/ipipip/$ip93/g" $program > tmp_93.txt
+sed "s/ipipip/$ip94/g" $program > tmp_94.txt
+sed "s/ipipip/$ip95/g" $program > tmp_95.txt
+sed "s/ipipip/$ip96/g" $program > tmp_96.txt
+sed "s/ipipip/$ip97/g" $program > tmp_97.txt
+sed "s/ipipip/$ip98/g" $program > tmp_98.txt
+sed "s/ipipip/$ip99/g" $program > tmp_99.txt
+sed "s/ipipip/$ip100/g" $program > tmp_100.txt
 cat tmp_1.txt >> tmp_all.txt
 cat tmp_2.txt >> tmp_all.txt
 cat tmp_3.txt >> tmp_all.txt
@@ -255,7 +335,47 @@ cat tmp_57.txt >> tmp_all.txt
 cat tmp_58.txt >> tmp_all.txt
 cat tmp_59.txt >> tmp_all.txt
 cat tmp_60.txt >> tmp_all.txt
+cat tmp_61.txt >> tmp_all.txt
+cat tmp_62.txt >> tmp_all.txt
+cat tmp_63.txt >> tmp_all.txt
+cat tmp_64.txt >> tmp_all.txt
+cat tmp_65.txt >> tmp_all.txt
+cat tmp_66.txt >> tmp_all.txt
+cat tmp_67.txt >> tmp_all.txt
+cat tmp_68.txt >> tmp_all.txt
+cat tmp_69.txt >> tmp_all.txt
+cat tmp_70.txt >> tmp_all.txt
+cat tmp_71.txt >> tmp_all.txt
+cat tmp_72.txt >> tmp_all.txt
+cat tmp_73.txt >> tmp_all.txt
+cat tmp_74.txt >> tmp_all.txt
+cat tmp_75.txt >> tmp_all.txt
+cat tmp_76.txt >> tmp_all.txt
+cat tmp_77.txt >> tmp_all.txt
+cat tmp_78.txt >> tmp_all.txt
+cat tmp_79.txt >> tmp_all.txt
+cat tmp_80.txt >> tmp_all.txt
+cat tmp_81.txt >> tmp_all.txt
+cat tmp_82.txt >> tmp_all.txt
+cat tmp_83.txt >> tmp_all.txt
+cat tmp_84.txt >> tmp_all.txt
+cat tmp_85.txt >> tmp_all.txt
+cat tmp_86.txt >> tmp_all.txt
+cat tmp_87.txt >> tmp_all.txt
+cat tmp_88.txt >> tmp_all.txt
+cat tmp_89.txt >> tmp_all.txt
+cat tmp_90.txt >> tmp_all.txt
+cat tmp_91.txt >> tmp_all.txt
+cat tmp_92.txt >> tmp_all.txt
+cat tmp_93.txt >> tmp_all.txt
+cat tmp_94.txt >> tmp_all.txt
+cat tmp_95.txt >> tmp_all.txt
+cat tmp_96.txt >> tmp_all.txt
+cat tmp_97.txt >> tmp_all.txt
+cat tmp_98.txt >> tmp_all.txt
+cat tmp_99.txt >> tmp_all.txt
+cat tmp_100.txt >> tmp_all.txt
 grep -vE '/{3}' tmp_all.txt > "txt/${city}.txt"
-rm -f tmp_1.txt tmp_2.txt tmp_3.txt tmp_4.txt tmp_5.txt tmp_6.txt tmp_7.txt tmp_8.txt tmp_9.txt tmp_10.txt tmp_11.txt tmp_12.txt tmp_13.txt tmp_14.txt tmp_15.txt tmp_16.txt tmp_17.txt tmp_18.txt tmp_19.txt tmp_20.txt tmp_21.txt tmp_22.txt tmp_23.txt tmp_24.txt tmp_25.txt tmp_26.txt tmp_27.txt tmp_28.txt tmp_29.txt tmp_30.txt tmp_31.txt tmp_32.txt tmp_33.txt tmp_34.txt tmp_35.txt tmp_36.txt tmp_37.txt tmp_38.txt tmp_39.txt tmp_40.txt tmp_41.txt tmp_42.txt tmp_43.txt tmp_44.txt tmp_45.txt tmp_46.txt tmp_47.txt tmp_48.txt tmp_49.txt tmp_50.txt tmp_51.txt tmp_52.txt tmp_53.txt tmp_54.txt tmp_55.txt tmp_56.txt tmp_57.txt tmp_58.txt tmp_59.txt tmp_60.txt tmp_all.txt
+rm -f tmp_1.txt tmp_2.txt tmp_3.txt tmp_4.txt tmp_5.txt tmp_6.txt tmp_7.txt tmp_8.txt tmp_9.txt tmp_10.txt tmp_11.txt tmp_12.txt tmp_13.txt tmp_14.txt tmp_15.txt tmp_16.txt tmp_17.txt tmp_18.txt tmp_19.txt tmp_20.txt tmp_21.txt tmp_22.txt tmp_23.txt tmp_24.txt tmp_25.txt tmp_26.txt tmp_27.txt tmp_28.txt tmp_29.txt tmp_30.txt tmp_31.txt tmp_32.txt tmp_33.txt tmp_34.txt tmp_35.txt tmp_36.txt tmp_37.txt tmp_38.txt tmp_39.txt tmp_40.txt tmp_41.txt tmp_42.txt tmp_43.txt tmp_44.txt tmp_45.txt tmp_46.txt tmp_47.txt tmp_48.txt tmp_49.txt tmp_50.txt tmp_51.txt tmp_52.txt tmp_53.txt tmp_54.txt tmp_55.txt tmp_56.txt tmp_57.txt tmp_58.txt tmp_59.txt tmp_60.txt tmp_61.txt tmp_62.txt tmp_63.txt tmp_64.txt tmp_65.txt tmp_66.txt tmp_67.txt tmp_68.txt tmp_69.txt tmp_70.txt tmp_71.txt tmp_72.txt tmp_73.txt tmp_74.txt tmp_75.txt tmp_76.txt tmp_77.txt tmp_78.txt tmp_79.txt tmp_80.txt tmp_81.txt tmp_82.txt tmp_83.txt tmp_84.txt tmp_85.txt tmp_86.txt tmp_87.txt tmp_88.txt tmp_89.txt tmp_90.txt tmp_91.txt tmp_92.txt tmp_93.txt tmp_94.txt tmp_95.txt tmp_96.txt tmp_97.txt tmp_98.txt tmp_99.txt tmp_100.txt tmp_all.txt
 echo "${city} 测试完成，生成可用文件：'txt/${city}.txt'"
 #--------合并所有城市的txt文件---------
